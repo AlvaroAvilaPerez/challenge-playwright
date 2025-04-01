@@ -7,7 +7,8 @@ test('Verify HomePage Hero Banner Text', async ({ page }) => {
     const possibleTitles = ["Live the dream", "Find your"];
     
     const heroBannerText = await homePage.getHeroBannerTitle();
-    assertContainsAnyText(heroBannerText, possibleTitles, `Hero Banner text "${heroBannerText}" does not contain any of the expected titles: ${possibleTitles.join(', ')}`);
+    assertContainsAnyText(heroBannerText, possibleTitles, 
+        `Hero Banner text "${heroBannerText}" does not contain any of the expected titles: ${possibleTitles.join(', ')}`);
 });
 
 test('Verify hotel availability and filter based on Bogotá City', async ({ page }) => {

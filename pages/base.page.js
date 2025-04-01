@@ -48,7 +48,7 @@ export default class BasePage {
         await this.page.waitForLoadState('load');
     }
 
-    async waitForTimeout(ms = 2000) {
+    async waitForTimeout(ms = 2500) {
         await this.page.waitForTimeout(ms);
     }
 

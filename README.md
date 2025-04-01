@@ -11,6 +11,8 @@ Clone the repository from GitHub:
 
 ```bash
 
+https://github.com/AlvaroAvilaPerez/challenge-playwright.git
+
 ```
 ## 📦 Verify the installation Version Node
 
@@ -29,27 +31,6 @@ To install all project dependencies from package.json, run:
 npm install
 ```
 
-## 🚀 Run Tests
-To execute all tests, use the following command:
-
-```bash
-npx playwright test
-```
-## 🚀 Generate the Allure report:
-Once the tests are complete, you can generate the Allure report using the following command:
-
-```bash
-npx allure generate --clean
-```
-
-
-## 🚀 Open the Allure report: 
-Finally, open the generated report in your browser using the following command:
-
-```bash
-npx allure opene
-```
-
 ## 📋 Additional Requirements
 Installing Browsers: After installing Playwright, make sure to install the necessary browsers by running:
 
@@ -59,6 +40,27 @@ npx playwright install
 
 ```bash
 npm install -D allure-playwright@^3.2.1
+```
+
+## 🚀 Run Tests
+To execute all tests, use the following command:
+
+```bash
+npx playwright test
+```
+
+## 🚀 Generate the Allure report:
+Once the tests are complete, you can generate the Allure report using the following command:
+
+```bash
+npx allure generate --clean
+```
+
+## 🚀 Open the Allure report: 
+Finally, open the generated report in your browser using the following command:
+
+```bash
+npx allure opene
 ```
 
 Visual Studio Code Setup: If you're using Visual Studio Code, you can install the Playwright extension for additional support and useful features.
