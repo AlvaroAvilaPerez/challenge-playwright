@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","14311","Verify hotel availability and filter based on New York City","chromium","Mon Mar 31 18:36:43 BOT 2025","passed","Mon Mar 31 18:36:58 BOT 2025","","homepage.spec.js","",""
+"","7663","Verify that hotel availability is updated when selecting check-in and check-out dates.","chromium","Mon Mar 31 18:36:43 BOT 2025","passed","Mon Mar 31 18:36:51 BOT 2025","","homepage.spec.js","",""
+"","2122","Verify HomePage Hero Banner Text","chromium","Mon Mar 31 18:36:43 BOT 2025","passed","Mon Mar 31 18:36:45 BOT 2025","","homepage.spec.js","",""
+"","8851","Verify navegate Flight Page","chromium","Mon Mar 31 18:36:43 BOT 2025","passed","Mon Mar 31 18:36:52 BOT 2025","","flightpage.spec.js","",""
+"","24812","Verify return date selection when searching for a round-trip flight","chromium","Mon Mar 31 18:36:43 BOT 2025","passed","Mon Mar 31 18:37:08 BOT 2025","","flightpage.spec.js","",""
